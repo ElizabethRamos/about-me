@@ -84,7 +84,7 @@
 
 	var en = {
 	  myself: {
-	    about: "I am an account manager, and beginer programmer.",
+	    about: "Account manager, and beginner programmer.",
 	    contact: {
 	      fingerprint: {
 	        pgp: "Do you want to talk to me using cryptography?"
