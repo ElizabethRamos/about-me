@@ -17,7 +17,7 @@ var I18n = {
 
 const en = {
   myself: {
-    about: "Account manager, and beginner programmer.",
+    about: "Beginner Web Developer.",
     contact: {
       fingerprint: {
         pgp: "Do you want to talk to me using cryptography?",
@@ -28,7 +28,7 @@ const en = {
 
 const ptBR = {
   myself: {
-    about: "Gerente de contas, programadora iniciante.",
+    about: "Desenvolvedora Web iniciante.",
     contact: {
       fingerprint: {
         pgp: "Quer me entrar em contato comigo de forma segura?",
