@@ -42,7 +42,7 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -56,9 +56,9 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -84,7 +84,7 @@
 
 	var en = {
 	  myself: {
-	    about: "Account manager, and beginner programmer.",
+	    about: "Beginner Web Developer.",
 	    contact: {
 	      fingerprint: {
 	        pgp: "Do you want to talk to me using cryptography?"
@@ -95,7 +95,7 @@
 
 	var ptBR = {
 	  myself: {
-	    about: "Gerente de contas, programadora iniciante.",
+	    about: "Desenvolvedora Web iniciante.",
 	    contact: {
 	      fingerprint: {
 	        pgp: "Quer me entrar em contato comigo de forma segura?"
@@ -109,9 +109,9 @@
 
 	exports.default = I18n;
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	"use strict";
 
@@ -155,9 +155,9 @@
 	  }, obj || self);
 	}
 
-/***/ },
+/***/ }),
 /* 3 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 
@@ -207,5 +207,5 @@
 
 	translate();
 
-/***/ }
+/***/ })
 /******/ ]);
