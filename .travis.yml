@@ -11,5 +11,5 @@ before_deploy:
   - echo "Deploying changes from $LAST_COMMIT"
   - node_modules/gh-pages/bin/gh-pages -d dist/ -m "Updates from $LAST_COMMIT"
 
-  deploy:
-   - npm run deploy
+#deploy:
+#  - npm run deploy
