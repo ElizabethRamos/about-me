@@ -1,5 +1,5 @@
 {
-  "name": "personal-experiment-place",
+  "name": "Personal website using pug and webpack",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "deploy": "gh-pages -d dist",
     "test": "mocha --compilers js:babel-register --require babel-polyfill --recursive ./tests"
   },
-  "author": "RatoX",
+  "author": "Elizabeth Ramos",
   "license": "GPL-3.0",
   "dependencies": {},
   "devDependencies": {
