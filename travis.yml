@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+   - "node"
+
+before_deploy:
+  - npm run-script predeploy
+  - LAST_COMMIT=$(git log -1 --pretty=format:'%h <%an> - %s')
+  - echo "Deploying changes from $LAST_COMMIT"
+  - node_modules/gh-pages/bin/gh-pages -d dist/ -m "Updates from $LAST_COMMIT"
+
+  deploy:
+   - npm deploy 
